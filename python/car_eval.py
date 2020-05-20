@@ -40,7 +40,7 @@ The data is split into training and testing samples
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 42)
 
 '''
-K Nearest Neighbors Classifier (with K as 7) is implemented and training data is fit to it
+K-Nearest Neighbors Classifier (with K as 7) is implemented and training data is fit to it
 '''
 model = KNeighborsClassifier(n_neighbors = 7)
 model.fit(X_train, y_train)
